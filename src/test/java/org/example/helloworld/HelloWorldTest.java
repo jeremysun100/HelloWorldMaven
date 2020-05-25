@@ -12,4 +12,9 @@ public class HelloWorldTest {
 		assertEquals("Fizz", hw.fizzBuzz(9));
 	}
 
+	@Test
+	public void test_Buzz() {
+		HelloWorld hw = new HelloWorld();
+		assertEquals("Buzz", hw.fizzBuzz(5));
+	}
 }
