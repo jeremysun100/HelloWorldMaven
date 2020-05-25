@@ -18,6 +18,6 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		HelloWorld hw = new HelloWorld();
-		Arrays.asList(100, 35, 9).stream().forEach(a -> System.out.println(hw.fizzBuzz(a)));
+		Arrays.asList(100, 35, 9, 30).stream().forEach(a -> System.out.println(hw.fizzBuzz(a)));
 	}
 }
